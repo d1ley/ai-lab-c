@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Układanka z mapą</title>
+
+    <!-- Nowoczesna czcionka -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+<h1 class="title">Układanka z mapą</h1>
+
+<div id="map-container">
+    <div id="map"></div>
+</div>
+
+<div>
+    <button id="locationBtn">Moja lokalizacja</button>
+    <button id="downloadMapBtn">Pobierz mapę</button>
+</div>
+
+<div id="puzzle-area">
+    <div id="puzzle-board"></div>
+    <div id="puzzle-pieces"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-image@latest/leaflet-image.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
